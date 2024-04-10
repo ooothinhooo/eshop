@@ -6,7 +6,7 @@ import {
   selectCartTotalQuantity,
 } from "~/redux/slice/cartSlice";
 
-import styles from "./CheckoutSummary.module.scss";
+import styles from "./CheckOutSummary.module.scss";
 import classNames from "classnames/bind";
 import Card from "./../card/Card";
 
@@ -20,7 +20,7 @@ const CheckoutSummary = () => {
     <div>
       <h3>Checkout Summary</h3>
       <div>
-        {cartItems.lenght === 0 ? (
+        {cartItems?.lenght === 0 ? (
           <>
             <p>No item in your cart.</p>
             <button className="--btn">
