@@ -1,14 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import styles from "./Admin.module.scss";
 import classNames from "classnames/bind";
-import {
-  AddProduct,
-  Home,
-  NavBar,
-  Orders,
-  OrderDetails,
-  ViewProducts,
-} from "~/components/admin";
+import Home from "~/components/admin/home/Home";
+import { AddProduct, NavBar, OrderDetails, Orders, ViewProducts } from "~/components/admin";
 
 const cx = classNames.bind(styles);
 

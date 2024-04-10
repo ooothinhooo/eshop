@@ -1,18 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { AdminOnlyRoute, Footer, Header } from "./components";
-import {
-  Admin,
-  Cart,
-  Contact,
-  Home,
-  Login,
-  NotFound,
-  OrderHistory,
-  Product,
-  Register,
-  Reset,
-} from "./pages";
+
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -20,6 +9,8 @@ import OrderDetails from "./components/admin/orderDetails/OrderDetails";
 import { ProductDetail } from "./components/product";
 import { Checkout, CheckoutDetails, CheckoutSuccess } from "./pages/checkout";
 import { AddProduct } from "./components/admin";
+import { Admin, Cart, Contact, Home, Login, NotFound, Product, Register, Reset } from "./pages";
+import OrderHistory from "./pages/orderHistory/orderHistory";
 
 function App() {
   return (
