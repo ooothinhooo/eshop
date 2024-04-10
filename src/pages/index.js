@@ -7,4 +7,4 @@ export { default as Home } from "./home/Home";
 export { default as Cart } from "./cart/Cart";
 export { default as Product } from "./products/product";
 export { default as NotFound } from "./notFound/NotFound";
-export { default as OrderHistory } from "./orderHistory/OrderHistory.jsx";
+// export { default as OrderHistory } from "./orderHistory/OrderHistory.jsx";
